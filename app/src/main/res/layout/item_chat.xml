@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/assistantAvatarImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/assistant_avatar"
+        android:layout_gravity="start|center_vertical"
+        android:contentDescription="@string/assistant_avatar" />
+
+    <TextView
+        android:id="@+id/assistantMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="48dp"
+        android:layout_gravity="start|center_vertical"
+        android:background="@drawable/chat_bubble_background"
+        android:maxWidth="280dp"
+        android:padding="8dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/userMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginEnd="48dp"
+        android:layout_gravity="end|center_vertical"
+        android:background="@drawable/chat_bubble_background"
+        android:maxWidth="280dp"
+        android:padding="8dp"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/userAvatarImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/avatar"
+        android:layout_gravity="end|center_vertical"
+        android:contentDescription="@string/avatar" />
+
+</FrameLayout>

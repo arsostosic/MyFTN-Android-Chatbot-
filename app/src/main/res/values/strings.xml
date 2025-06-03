@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFTN</string>
+    <string name="avatar">******</string>
+    <string name="assistant_avatar">******</string>
+    <!-- Avatar dimensions -->
+    <dimen name="avatar_size">34dp</dimen>
+    <dimen name="avatar_margin">1dp</dimen>
+</resources>
